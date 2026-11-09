@@ -31,6 +31,8 @@ description: 東專學術 AI 工具包的入口導覽。問最多三個問題（
 | D 寫作 | writing-coach | 「請用 writing-coach 的學生模式，教我改這一段。」 |
 | E 繳交前 | paper-selfcheck | 「請用 paper-selfcheck 檢查我的報告，只檢查不要改寫。」 |
 | F 計畫書 | grant-writer | 「請用 grant-writer 幫我把研究構想整理成計畫書結構。」 |
+| 需要次級資料或統計時 | opendata-scout | 「請用 opendata-scout 幫我找臺東縣民宿相關的政府公開資料。」 |
+| 想做自己的 skill | 讀 skill-template\做自己的skill.md | 「請帶我讀 skill-template 資料夾裡的做自己的skill.md，我想做一支民宿評論編碼的技能。」 |
 | 任何階段 | prompt-coach | 「請用 prompt-coach 幫我把這個問題問得更清楚。」 |
 | 任何階段（交件前必做） | ai-disclosure | 「請用 ai-disclosure 幫我整理這次的 AI 使用揭露聲明。」 |
 

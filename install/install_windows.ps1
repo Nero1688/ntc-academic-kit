@@ -1,5 +1,5 @@
 ﻿# 東專學術 AI 工具包 安裝腳本（Windows PowerShell 5.1 以上）
-# 用途：把 skills 資料夾下的九支技能複製到
+# 用途：把 skills 資料夾下的十支技能複製到
 #   <TargetRoot>\.claude\skills   （Claude Code 個人技能目錄）
 #   <TargetRoot>\.agents\skills   （Codex 個人技能目錄）
 # 若目標已有同名資料夾，會先改名為「名稱.bak-yyyyMMdd」再複製。
@@ -19,7 +19,7 @@ $ErrorActionPreference = 'Stop'
 $kitRoot   = Split-Path -Parent $PSScriptRoot
 $skillsSrc = Join-Path $kitRoot 'skills'
 $skillNames = @('kit-guide','topic-scout','lit-search','lit-matrix','writing-coach',
-                'paper-selfcheck','grant-writer','ai-disclosure','prompt-coach')
+                'paper-selfcheck','grant-writer','ai-disclosure','prompt-coach','opendata-scout')
 $targets = @(
     @{ Label = 'Claude Code'; Path = (Join-Path $TargetRoot '.claude\skills') },
     @{ Label = 'Codex';       Path = (Join-Path $TargetRoot '.agents\skills') }
